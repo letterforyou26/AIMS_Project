@@ -14,6 +14,7 @@ public class Main extends Application {
 			Parent root = FXMLLoader.load(getClass().getResource("/views/HomeScreen.fxml"));
 			Scene scene = new Scene(root);
 			primaryStage.setScene(scene);
+			primaryStage.setTitle("Home Screen - Vu Binh Duong - 20183903");
 			primaryStage.show();
 		} catch (Exception e) {  
 			e.printStackTrace();	
