@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -31,6 +32,12 @@
                   <Font size="20.0" />
                </font>
             </Button>
+            <Label layoutX="515.0" layoutY="59.0" text="118.500đ" textFill="#5292e6">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Spinner layoutX="638.0" layoutY="64.0" />
          </children></AnchorPane>
       <Label layoutX="925.0" layoutY="96.0" style="-fx-font-weight: bold;" text="Subtotal:">
          <font>
@@ -58,6 +65,11 @@
          </font>
       </Label>
       <Button layoutX="925.0" layoutY="310.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="383.0" style="-fx-background-color: red;" text="Place order" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="925.0" layoutY="384.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="383.0" style="-fx-background-color: orange;" text="Place rush order" textFill="WHITE">
          <font>
             <Font size="24.0" />
          </font>
